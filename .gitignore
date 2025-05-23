@@ -1,0 +1,24 @@
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Dependency-specific
+# macOS
+.DS_Store
+
+# 환경에 따라 생성될 수 있는 파일
+*.tfvars
+# *.tfvars.example # tfvars 예시 파일은 포함시키기 위해서
+backend.hcl
+
+# VM key.file
+*.pub
+*.pem
+
+# ignore pycache
+__pycache__
